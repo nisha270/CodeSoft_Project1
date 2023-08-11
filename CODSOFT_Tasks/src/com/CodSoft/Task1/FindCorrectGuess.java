@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class FindCorrectGuess {
 	public static void main(String[] args) {
-		
+
 //		System.out.println(number);
 
-		while(true) {
+		while (true) {
 			Random random = new Random();
 			int number = random.nextInt(100) + 1;
 			System.out.print("Guess the Number between 1 to 100 : ");
@@ -23,6 +23,6 @@ public class FindCorrectGuess {
 				System.out.println("Your guess is too Low, the Number was " + number);
 			}
 		}
-		}
+	}
 
 }
